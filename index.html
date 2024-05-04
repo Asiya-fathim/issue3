@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Make a Quiz</title>
+  <style>
+  </style>
+</head>
+<body>
+  <h1>Make a Quiz</h1>
+  <button id="newQuizBtn">New Quiz</button>
+  
+  <form id="newQuestionForm">
+    <h2>New Question</h2>
+    <label for="questionField">Question:</label>
+    <input type="text" id="questionField" required>
+    <br>
+    <label for="imageField">Image URL (if required):</label>
+    <input type="text" id="imageField">
+    <br>
+    <label>Answer Type:</label>
+    <input type="radio" id="optionsRadio" name="answerType" value="options" checked>
+    <label for="optionsRadio">Options</label>
+    <input type="radio" id="fillInBlankRadio" name="answerType" value="fill_in_the_blank">
+    <label for="fillInBlankRadio">Fill in the Blank</label>
+    <br>
+    <div id="optionsSection">
+      <label for="option1">Option 1:</label>
+      <input type="text" id="option1">
+      <br>
+      <label for="option2">Option 2:</label>
+      <input type="text" id="option2">
+    </div>
+    <button type="button" id="addQuestionBtn">Add Question</button>
+  </form>
+  
+  <button type="button" id="submitQuizBtn">Submit Quiz</button>
+
+  <script>
+  </script>
+</body>
+</html>
